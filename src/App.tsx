@@ -1,3 +1,6 @@
+// FIX: file was crashing before data loaded (useState() -> useState([]))
+// FIX: signup count was using month-match instead of a real 7-day window
+
 import React, { useEffect, useState } from "react";
 
 export default function SignupsThisWeek() {
